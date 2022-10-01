@@ -4,7 +4,7 @@
 
 # Introduction
 
-**Web Cleanser** Thing was created with the typical internet user in mind, who must navigate among several websites while online and risk falling for a trap from a bad website that may be after the user's information or seeks to infect their machine with malware. Our Chrome plugin allows users to utilise our uniquely trained ML model to determine if a specific website is safe to browse.
+**Web Cleanser** was created with the typical internet user in mind, who must navigate among several websites while online and risk falling for a trap from a bad website that may be after the user's information or seeks to infect their machine with malware. Our Chrome plugin allows users to utilise our uniquely trained ML model to determine if a specific website is safe to browse.
 
 
 - [Web Cleanser - A Chrome Extension to detect Malicious Websites](#web-cleanser---a-chrome-extension-to-detect-malicious-websites)
