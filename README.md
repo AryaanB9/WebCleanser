@@ -68,10 +68,17 @@ Our idea was developed with the typical internet user in mind, who must go throu
 
 # Usage
 
+## Project Folder
+
+1. Place the Project Folder in xampp/htdocs/
+2. Make sure XAMPP is running before running the Extension
+3. Change the address of index.php in the popup.js file.
+
 ## Extension
 
 1. Go to Chrome Settings by tapping on the three dots availble on the top right corner
 2. Select " Extensions "
 3. Enable " Developer Mode "
 4. Click on " Load Unpacked " and select the " extensions " folder
+
 </br>
