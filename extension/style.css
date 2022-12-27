@@ -1,69 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-#loader-gif {
-  display: none;
-}
+/* ========= TAG SELECTORS ========= */
 
 body {
-  width: 300px;
+  color: black;
+  background-color: lightblue; 
   display:inline-block;
-  font-family: 'Lato', sans-serif;
-  background-color: #FFF; 
-  color: black; 
-}
-
-.container {
-  font-size: 15px;
-}
-
-.title {
-  padding: 15px;
-  padding-top: 0px;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 30px;
-}
-
-.info {
-  padding: 5px;
-  background-color: white;
-  font-size: 20px;
-}
-
-.p1 {
-  padding: 5px 5px 0px;
-  margin-top: 20px;
-  background-color: white;
-  font-size: 20px;
-}
-
-#site {
-  font-size: 15px;
-  color:blue;
-}
-
-.check {
-  font-size: 15px;
-  background-color: white;
-  margin-top: 20px;
-  align-content: center;
-}
-
-p {
-  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 350px;
 }
 
 button {
-  border-radius: 20px;
+  border-radius: 1.5rem;
   border: 1px solid #0C5;
   background-color: #0C5;
   color: #FFFFFF;
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: bold;
-  padding: 12px 35px;
-  letter-spacing: 1.3px;
+  letter-spacing: 1px;
+  padding: 10px 15px;
   text-transform: uppercase;
-  transition: transform 1000ms ease-in;
+  transition: transform 200ms ease-in;
 }
 
 button:active {
@@ -75,10 +32,11 @@ button:focus {
 }
 
 .button:hover {
-  text-decoration: none;
   color: #0C5;
   border-color: #0C5;
-  background: #FFF;
+  background: #FFFFFF;
+  text-decoration: none;
+  transform: scale(0.96);
 }
 
 button.ghost {
@@ -86,19 +44,64 @@ button.ghost {
   border-color: #FFFFFF;
 }
 
-#div1, #div2 {
-  vertical-align: middle; 
-  line-height: 50px; 
-  text-align:center;
+
+/* ========= CLASS SELECTORS ========= */
+.container {
+  font-size: 15px;
+}
+
+.check {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+#site {
+  color:blue;
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 2.3rem;
+  padding: 0 5px 0 5px;
+}
+
+.wrapper {
+  font-size: 1.2rem;
+}
+
+
+/* ========= ID SELECTORS ========= */
+
+#div1, #div2, #div3 {
   font-size:20px;
-  color: #0C5;
   font-weight: bolder;
+  line-height: 50px;
+  text-align:center;
+  vertical-align: middle;
 }
 
 #div1 {
-  color:#0C5;
+  color: #0C5;
 }
 
 #div2 {
-  color:red;
+  color: orange;
+}
+
+#div3 {
+  color: red;
+}
+
+#div-gif {
+  background-color: #FFFFFF;
+  border-radius: 1.5rem;
+  display: none;
+  height: 50px;
+  margin-top: 10px;
+  width: 150px;  
+}
+
+#loader-gif {
+  display: none;
+  vertical-align: middle;
 }
