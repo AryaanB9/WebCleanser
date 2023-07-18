@@ -1,5 +1,5 @@
 # Web Cleanser- A Chrome Extension to detect Malicious Websites
- ABC
+
 ![](./images/image1.png)
 
 # Introduction
